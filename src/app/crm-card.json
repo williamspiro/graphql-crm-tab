@@ -1,0 +1,23 @@
+{
+  "type": "crm-card",
+  "version": 2,
+  "data": {
+    "title": "GraphQL powered CRM card",
+    "fetch": {
+      "targetFunction": "kard",
+      "objectTypes": [
+        {
+          "name": "contacts",
+          "propertiesToSend": ["hs_object_id"], 
+          "actions":[]
+        }
+      ]
+    },
+    "display": {
+      "properties": []
+    },
+    "actions": {
+      "baseUrls": []
+    }
+  }
+}

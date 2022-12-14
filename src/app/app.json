@@ -1,0 +1,21 @@
+{
+  "name": "GraphQL powered CRM card",
+  "description": "",
+  "scopes": [
+    "crm.objects.contacts.read",
+    "crm.objects.contacts.write",
+    "collector.graphql_schema.read",
+    "collector.graphql_query.execute"
+  ],
+  "public": false,
+  "extensions": {
+    "crm": {
+      "cards": [
+        {
+          "file": "./crm-card.json",
+          "version": 2
+        }
+      ]
+    }
+  }
+}

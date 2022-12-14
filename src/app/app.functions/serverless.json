@@ -1,0 +1,10 @@
+{
+  "runtime": "nodejs12.x",
+  "version": "1.0",
+  "appFunctions": {
+    "kard": {
+      "file": "crm-card.js",
+      "secrets": ["ACCESS_TOKEN"]
+    }
+  }
+}
